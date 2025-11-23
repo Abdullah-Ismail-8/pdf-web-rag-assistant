@@ -21,7 +21,9 @@ from bs4 import BeautifulSoup
 import gradio as gr
 
 # LLM and Embeddings
-API_KEY = "Private"
+import os
+API_KEY = os.getenv("GEMINI_API_KEY")
+
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
