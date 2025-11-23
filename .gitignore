@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / API keys
+.env
+*.env
+
+# VS Code / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PDF uploads or other large files
+*.pdf
+*.zip
+
+# FAISS / vectorstore files (optional, if saved locally)
+*.index
+*.faiss
+
+# Logs
+*.log
+
+# Python virtual environments
+venv/
+env/
+.venv/
